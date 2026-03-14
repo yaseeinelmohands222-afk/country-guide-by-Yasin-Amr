@@ -14,7 +14,7 @@ let language=Object.values(c.languages)[0];
 document.getElementById("result").innerHTML=
 `
 <h2>${c.name.common}</h2>
-<img src="${flag}">
+<img src="${flag}" alt="Flag of ${c.name.common}">
 <p>Capital: ${capital}</p>
 <p>Population: ${population}</p>
 <p>Region: ${region}</p>
